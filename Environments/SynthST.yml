@@ -1,4 +1,4 @@
-name: GATSim
+name: SynthST
 channels:
   - defaults
 dependencies:
@@ -280,4 +280,4 @@ dependencies:
       - xmod==1.8.1
       - yarl==1.9.4
       - zipp==3.16.2
-prefix: /home/ajita/anaconda3/envs/GATSim
+prefix: /home/ajita/anaconda3/envs/SynthST

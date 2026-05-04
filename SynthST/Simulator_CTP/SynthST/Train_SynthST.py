@@ -3,10 +3,10 @@ import scipy.sparse as sp
 import tensorflow.compat.v1 as tf
 import pandas as pd
 import scanpy as sc
-from GATSim.GATSim import GATSim 
+from SynthST.SynthST import SynthST 
 from sklearn.preprocessing import normalize
 
-def train_GATSim(adata_list, method_list, hidden_dims=[512, 30], alpha=0, n_epochs=1000, lr=0.0001, key_added='STAGATE',
+def train_SynthST(adata_list, method_list, hidden_dims=[512, 30], alpha=0, n_epochs=1000, lr=0.0001, key_added='STAGATE',
                 gradient_clipping=5, nonlinear=True, weight_decay=0.0001,verbose=True, 
                 random_seed=2020, pre_labels=None, pre_resolution=0.2,
                 save_attention=False, save_loss=False, save_reconstrction=False):
@@ -25,7 +25,7 @@ def train_GATSim(adata_list, method_list, hidden_dims=[512, 30], alpha=0, n_epoc
     X = pd.DataFrame(adata_Vars.X[:, ], index=adata_Vars.obs.index, columns=adata_Vars.var.index)
     cells = np.array(X.index)
     
-    trainer = GATSim(hidden_dims=[X.shape[1]] + hidden_dims, alpha=alpha, 
+    trainer = SynthST(hidden_dims=[X.shape[1]] + hidden_dims, alpha=alpha, 
                     n_epochs=n_epochs, lr=lr, gradient_clipping=gradient_clipping, 
                     nonlinear=nonlinear,weight_decay=weight_decay, verbose=verbose, 
                     random_seed=random_seed)
@@ -68,21 +68,21 @@ def train_GATSim(adata_list, method_list, hidden_dims=[512, 30], alpha=0, n_epoc
             adata.obsm[method_list[index] + "_" + key_added] = cell_reps.loc[adata.obs_names, ].values
             
             if save_attention:
-                adata.uns['GATSim_attention'] = attentions
+                adata.uns['SynthST_attention'] = attentions
                 
             if save_loss:
-                adata.uns['GATSim_loss'] = loss
+                adata.uns['SynthST_loss'] = loss
                 
             if save_reconstrction:
                            
                 ReX = pd.DataFrame(ReX, index=X.index, columns=X.columns)
                 ReX[ReX<0] = 0
                
-                adata.obsm[method_list[index] + "_GATSim_ReX"] = ReX.values
+                adata.obsm[method_list[index] + "_SynthST_ReX"] = ReX.values
 
                 ReX = ReX.div(ReX.sum(axis = 1), axis = 0)
                 print (np.sort(ReX.sum(axis = 1)))
-                adata.obsm[method_list[index] + "_GATSim_ReX_Norm"] = ReX #.values
+                adata.obsm[method_list[index] + "_SynthST_ReX_Norm"] = ReX #.values
                 
             index += 1
    

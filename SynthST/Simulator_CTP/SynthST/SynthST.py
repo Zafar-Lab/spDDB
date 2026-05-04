@@ -3,11 +3,11 @@ import scipy.sparse as sp
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
-from GATSim.model import GATE
+from SynthST.model import GATE
 import random
 import sys
 
-class GATSim():
+class SynthST():
 
     def __init__(self, hidden_dims, alpha, n_epochs=500, lr=0.001, 
                  gradient_clipping=5, nonlinear=True, weight_decay=0.0001, 
