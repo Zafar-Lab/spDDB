@@ -26,9 +26,9 @@ conda activate method_name
 `spDDB` can be used for:
 1. Benchmarking study of spatial deconvolution methods
 2. Benchmarking study of domain detection methods
-3. Suite of evaluation metrics suitable for spatial transcriptomics e.g. Bivariate spatial metrics, Cell-type shape characterization metris and Rare cell types metrics.
-4. Simuation of synthetic spatial transcritomics and synthetic cell type proportions using 'SynthST'
-5. Rich spatial dataset repository spanning brain, cancer and organs across tissue, technologies and timepoints.
+3. Providing a suite of evaluation metrics for spatial transcriptomics, including bivariate spatial metrics, cell-type shape characterization metrics, and rare cell-type metrics
+4. Simulating synthetic spatial transcriptomics data and synthetic cell-type proportions using `spDDB`
+5. Rich spatial dataset repository spanning brain, cancer and organs across tissue, species and technologies.
 
 ## spDDB Website
 The synthetic datasets are available for download from: [https://zafar-lab.github.io/spDDB_datasets.github.io/](https://zafar-lab.github.io/spDDB_datasets.github.io/)
