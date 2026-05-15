@@ -38,3 +38,4 @@ In case of any bug reports, enhancement requests, general questions, and other c
 
 ## Cite this article
 Ajita Shree, Aditya V, Tanush Kumar and Hamim Zafar, A Comprehensive Benchmarking of Spatial Deconvolution and Domain Detection Methods across Diverse Tissues and Spatial Transcriptomic Technologies
+https://doi.org/10.64898/2026.05.11.724248
