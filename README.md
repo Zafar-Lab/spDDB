@@ -1,7 +1,5 @@
 # spDDB
-A Comprehensive Benchmarking of Spatial Deconvolution and Domain Detection Methods across Diverse Tissues and Spatial Transcriptomic Technologies
-
-The Github provides installation instructions, set up and runnable files used in the benchmarking. The overview of the benchmarking is as follows.
+A Comprehensive Benchmarking of Spatial Deconvolution and Domain Detection Methods across Diverse Tissues and Spatial Transcriptomic Technologies [https://doi.org/10.64898/2026.05.11.724248](https://doi.org/10.64898/2026.05.11.724248).The Github provides installation instructions, set up and runnable files used in the benchmarking. The overview of the benchmarking is as follows.
 
 <img src='overview.png'>
 
