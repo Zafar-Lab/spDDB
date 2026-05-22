@@ -236,6 +236,7 @@ def create_composite_score_file(metrics_path, cc_path, sheet_path, data_name, me
     for m in all_metrics:
         
         data = pd.read_csv(metrics_path + m + ".csv")
+        data = data.apply(pd.to_numeric, errors="coerce") # Added so that data is treated as numeric in pandas 2.2.2
         #print (data.columns)
         data["cell_type"] = data[data.columns[0]].astype(str)
         data["Metric"] = m
