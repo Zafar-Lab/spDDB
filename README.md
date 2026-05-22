@@ -38,7 +38,7 @@ Check out the following Colab notebook tutorials to run SynthST and spDDB's eval
 
 1. [SynthST for generation of synthetic cell type proportions - DLPFC 151508](https://colab.research.google.com/drive/17QzIYbda3c1HtHDWnyQcpvpABhAO63UZ?usp=sharing)
 2. [SynthST for generation of synthetic spatial gene expression - DLPFC 151508](https://colab.research.google.com/drive/1k-QbrHe6Gq_jmBqKSPawF0JhJlkuU54L?usp=sharing)
-3. [Generation of datasets using simulation strategy 2 on MERFISH Lung Cancer dataset](https://colab.research.google.com/drive/1Aqnbtlxy1LXFRNpyXgDXF37RyNA0ammG?usp=sharing)
+3. [Generation of datasets using Simulation Strategy 2 - MERFISH Lung Cancer](https://colab.research.google.com/drive/1Aqnbtlxy1LXFRNpyXgDXF37RyNA0ammG?usp=sharing)
 4. [spDDB's Bi-variate Spatial and Non-spatial evaluation metrics - Autogenes method on DLPFC 151508](https://colab.research.google.com/drive/1wCoktLHypk-NUOMBxgQgZ7-PELYDMddB?usp=sharing)
 5. [Identification of Regionally Rare and Rare cell types - DLPFC 151508](https://colab.research.google.com/drive/1M27X8mf14t2JaUFp718v8pEXdZLDFHxq?usp=sharing)
 6. [Identification of High Curl, High Elongation, Low Clongation, High Linearity and Low Linearity cell types - DLPFC 151508](https://colab.research.google.com/drive/1iuLaS99PXzK5n8lFs9EHPMs1YcY2MTLN?usp=sharing)
