@@ -6,7 +6,7 @@ import scanpy as sc
 from SynthST.SynthST import SynthST 
 from sklearn.preprocessing import normalize
 
-def train_SynthST(adata_list, method_list, hidden_dims=[512, 30], alpha=0, n_epochs=1000, lr=0.0001, key_added='STAGATE',
+def train_SynthST(adata_list, method_list, hidden_dims=[512, 30], alpha=0, n_epochs=1000, lr=0.0001, key_added='SynthST',
                 gradient_clipping=5, nonlinear=True, weight_decay=0.0001,verbose=True, 
                 random_seed=2020, pre_labels=None, pre_resolution=0.2,
                 save_attention=False, save_loss=False, save_reconstrction=False):
@@ -65,7 +65,7 @@ def train_SynthST(adata_list, method_list, hidden_dims=[512, 30], alpha=0, n_epo
             cell_reps = pd.DataFrame(embeddings)
             cell_reps.index = cells
         
-            adata.obsm[method_list[index] + "_" + key_added] = cell_reps.loc[adata.obs_names, ].values
+            adata.obsm[method_list[index] + "_embedding"] = cell_reps.loc[adata.obs_names, ].values
             
             if save_attention:
                 adata.uns['SynthST_attention'] = attentions
