@@ -78,7 +78,8 @@ def train_SynthST(adata_list, method_list, hidden_dims=[512, 30], alpha=0, n_epo
                 ReX = pd.DataFrame(ReX, index=X.index, columns=X.columns)
                 ReX[ReX<0] = 0
                
-                adata.obsm[method_list[index] + "_SynthST_ReX"] = ReX.values
+                # We will only store Norm so that the final CTP matrix is always normalized
+                #adata.obsm[method_list[index] + "_SynthST_ReX"] = ReX.values
 
                 ReX = ReX.div(ReX.sum(axis = 1), axis = 0)
                 print (np.sort(ReX.sum(axis = 1)))
