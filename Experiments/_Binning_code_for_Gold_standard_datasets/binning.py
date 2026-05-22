@@ -35,8 +35,8 @@ def getspots(adata, x1, y1, x2, y2, coord1, coord2):
         (coordinates[:, coord2] >= y1) & (coordinates[:, coord2] <= y2)
     )
 
-    if (np.sum(mask) != 0):
-        print(f"Number of spots in mask: {np.sum(mask)}")
+    #if (np.sum(mask) != 0):
+    #    print(f"Number of spots in mask: {np.sum(mask)}")
         
     adata_subset = adata[mask].copy()
     #print ("(",x1, ",", y1, ") to (", x2, ",", y2, ")", adata_subset)
