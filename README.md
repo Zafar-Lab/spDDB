@@ -32,7 +32,7 @@ conda activate method_name
 The synthetic datasets are available for download from: [https://zafar-lab.github.io/spDDB_datasets.github.io/](https://zafar-lab.github.io/spDDB_datasets.github.io/)
 
 ## Tutorials
-Check out the following Colab notebook tutorials to run SynthST and spDDB's evaluation framework. 
+Check out the following Colab notebook tutorials to run SynthST and spDDB's evaluation framework ([Link to datasets](https://drive.google.com/drive/folders/1TdCjxfdQLZpGEVcG-fu7gkaq2yaMjRrZ?usp=sharing)). 
 
 1. [SynthST for generation of synthetic cell type proportions - DLPFC 151508](https://colab.research.google.com/drive/17QzIYbda3c1HtHDWnyQcpvpABhAO63UZ?usp=sharing)
 2. [SynthST for generation of synthetic spatial gene expression - DLPFC 151508](https://colab.research.google.com/drive/1k-QbrHe6Gq_jmBqKSPawF0JhJlkuU54L?usp=sharing)
