@@ -40,7 +40,10 @@ Check out the following Colab notebook tutorials to run SynthST and spDDB's eval
 4. [spDDB's Bi-variate Spatial and Non-spatial evaluation metrics - DLPFC 151508](https://colab.research.google.com/drive/1wCoktLHypk-NUOMBxgQgZ7-PELYDMddB?usp=sharing)
 5. [Identification of Regionally Rare and Rare cell types - DLPFC 151508](https://colab.research.google.com/drive/1M27X8mf14t2JaUFp718v8pEXdZLDFHxq?usp=sharing)
 6. [Identification of High Curl, High Elongation, Low Elongation, High Linearity and Low Linearity cell types - DLPFC 151508](https://colab.research.google.com/drive/1iuLaS99PXzK5n8lFs9EHPMs1YcY2MTLN?usp=sharing)
-   
+
+## Documentation
+Read the docs: [https://spddb-tutorial.readthedocs.io/en/latest/](https://spddb-tutorial.readthedocs.io/en/latest/)
+
 ## Contributing
 In case of any bug reports, enhancement requests, general questions, and other contributions, please create an issue. For more substantial contributions, please fork this repo, push your changes to your fork, and submit a pull request with a good commit message.
 
