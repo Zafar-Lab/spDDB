@@ -1,6 +1,9 @@
 # spDDB
 A Comprehensive Benchmarking of Spatial Deconvolution and Domain Detection Methods across Diverse Tissues and Spatial Transcriptomic Technologies [https://doi.org/10.64898/2026.05.11.724248](https://doi.org/10.64898/2026.05.11.724248).The Github provides installation instructions, set up and runnable files used in the benchmarking. The overview of the benchmarking is as follows.
 
+## spDDB Website
+The synthetic datasets are available for download from: [https://zafar-lab.github.io/spDDB_datasets.github.io/](https://zafar-lab.github.io/spDDB_datasets.github.io/)
+
 <img src='overview.png'>
 
 ## Installation
@@ -27,9 +30,6 @@ conda activate method_name
 3. Providing a suite of evaluation metrics for spatial transcriptomics, including bivariate spatial metrics, cell-type shape characterization metrics, and rare cell-type metrics
 4. Simulating synthetic spatial transcriptomics data and synthetic cell-type proportions using `SynthST`
 5. Rich spatial dataset repository spanning brain, cancer and organs across tissue, species and technologies.
-
-## spDDB Website
-The synthetic datasets are available for download from: [https://zafar-lab.github.io/spDDB_datasets.github.io/](https://zafar-lab.github.io/spDDB_datasets.github.io/)
 
 ## Tutorials
 Check out the following Colab notebook tutorials to run SynthST and spDDB's evaluation framework ([Link to datasets](https://drive.google.com/drive/folders/1TdCjxfdQLZpGEVcG-fu7gkaq2yaMjRrZ?usp=sharing)). 
