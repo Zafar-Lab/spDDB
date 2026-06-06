@@ -1,6 +1,9 @@
 # spDDB
 A Comprehensive Benchmarking of Spatial Deconvolution and Domain Detection Methods across Diverse Tissues and Spatial Transcriptomic Technologies [https://doi.org/10.64898/2026.05.11.724248](https://doi.org/10.64898/2026.05.11.724248).The Github provides installation instructions, set up and runnable files used in the benchmarking. The overview of the benchmarking is as follows.
 
+## spDDB Website
+The synthetic datasets are available for download from: [https://zafar-lab.github.io/spDDB_datasets.github.io/](https://zafar-lab.github.io/spDDB_datasets.github.io/)
+
 <img src='overview.png'>
 
 ## Installation
@@ -28,9 +31,6 @@ conda activate method_name
 4. Simulating synthetic spatial transcriptomics data and synthetic cell-type proportions using `SynthST`
 5. Rich spatial dataset repository spanning brain, cancer and organs across tissue, species and technologies.
 
-## spDDB Website
-The synthetic datasets are available for download from: [https://zafar-lab.github.io/spDDB_datasets.github.io/](https://zafar-lab.github.io/spDDB_datasets.github.io/)
-
 ## Tutorials
 Check out the following Colab notebook tutorials to run SynthST and spDDB's evaluation framework ([Link to datasets](https://drive.google.com/drive/folders/1TdCjxfdQLZpGEVcG-fu7gkaq2yaMjRrZ?usp=sharing)). 
 
@@ -40,7 +40,10 @@ Check out the following Colab notebook tutorials to run SynthST and spDDB's eval
 4. [spDDB's Bi-variate Spatial and Non-spatial evaluation metrics - DLPFC 151508](https://colab.research.google.com/drive/1wCoktLHypk-NUOMBxgQgZ7-PELYDMddB?usp=sharing)
 5. [Identification of Regionally Rare and Rare cell types - DLPFC 151508](https://colab.research.google.com/drive/1M27X8mf14t2JaUFp718v8pEXdZLDFHxq?usp=sharing)
 6. [Identification of High Curl, High Elongation, Low Elongation, High Linearity and Low Linearity cell types - DLPFC 151508](https://colab.research.google.com/drive/1iuLaS99PXzK5n8lFs9EHPMs1YcY2MTLN?usp=sharing)
-   
+
+## Documentation
+Read the docs: [https://spddb-tutorial.readthedocs.io/en/latest/](https://spddb-tutorial.readthedocs.io/en/latest/)
+
 ## Contributing
 In case of any bug reports, enhancement requests, general questions, and other contributions, please create an issue. For more substantial contributions, please fork this repo, push your changes to your fork, and submit a pull request with a good commit message.
 
